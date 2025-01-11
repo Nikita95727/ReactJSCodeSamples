@@ -55,7 +55,6 @@ export class TemplateController {
                         <input
                             type="text"
                             id="password"
-                            data-name={`form.credentials.${passwordIndex}.value`}
                             className="form-control wizard-custom-input wizard-custom-input"
                             onChange={e => onChangeParameterValue(e, passwordIndex)}
                             value={passwordItem.value}
