@@ -36,7 +36,7 @@ export class TemplateController {
         return null;
     }
 
-    pricefinder(component) {
+    provider(component) {
         const {credentials} = component.state.form;
         const { onClose } = component.props;
         const {onChangeParameterValue, onUpdateCredentials} = component.events;
@@ -45,7 +45,7 @@ export class TemplateController {
 
         return (
             <div className="modal-body">
-                <p className="modal-text mb-0 ml-20">Please enter your current Pricefinder password:</p>
+                <p className="modal-text mb-0 ml-20">Please enter your current Provider's password:</p>
                 <form>
                     <div className="form-group custom-group">
                         <label htmlFor="password" className="col-sm-6">
