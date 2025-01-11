@@ -3,7 +3,7 @@ import {TemplateController} from "./template-controller";
 import {Requests} from "./requests";
 import {Events} from "./events";
 
-export class DashboardInvalidCredentialsModal extends CommonComponent {
+export class DashboardInvalidCredentials extends CommonComponent {
     constructor(props) {
         super(props);
         this.state = {
