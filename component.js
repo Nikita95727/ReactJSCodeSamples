@@ -43,4 +43,4 @@ export class DashboardInvalidCredentials extends CommonComponent {
     }
 }
 
-utils.REACT.domrender(DashboardInvalidCredentialsModal, $('[component=DashboardInvalidCredentialsModal]'));
+utils.REACT.domrender(DashboardInvalidCredentials, $('[component=DashboardInvalidCredentialsModal]'));
